@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".HomePageActivity"
+    tools:showIn="@layout/app_bar_home_page">
+
+    <Button
+        android:id="@+id/imageButton_workshop"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/ic_workshop"
+        android:text="@string/image_button_workshop"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/imageButton_equipment"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/ic_workshop"
+        android:text="@string/image_button_equipment"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/imageButton_blank"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/ic_workshop"
+        android:text="@string/image_button_blank" />
+</LinearLayout>
+

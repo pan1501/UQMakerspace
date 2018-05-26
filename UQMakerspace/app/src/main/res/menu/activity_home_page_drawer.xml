@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_staff"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="Staff" />
+        <item
+            android:id="@+id/nav_workshop"
+            android:icon="@drawable/ic_workshop"
+            android:title="Workshop" />
+        <!--Slideshow!-->
+        <item
+            android:id="@+id/nav_machines"
+            android:icon="@drawable/ic_build_black_24dp"
+            android:title="Machines" />
+
+        <item
+            android:id="@+id/nav_inductions"
+            android:icon="@drawable/ic_assessment_black_24dp"
+            android:title="Inductions" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Setting" />
+
+        <item
+            android:id="@+id/nav_signOut"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Sign out" />
+    </group>
+</menu>
